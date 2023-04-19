@@ -1,0 +1,315 @@
+
+  
+
+
+
+  body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.firstpage {
+    /* clip-path: polygon(0% 0%, 100% 0%,100% 100%,80% 80%,0% 100%    ); */
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.bgimg {
+    position: absolute;
+    z-index: -1;
+    width: 950px
+}
+
+ul {
+    margin-top: 0px;
+    display: flex;
+}
+
+
+li a{
+    list-style-type: none;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: aqua;
+    font-weight: 500px;
+    font-size: larger;
+}
+
+h2 {
+    color: aqua;
+}
+
+
+li::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: coral;
+    margin: auto;
+    display: block;
+}
+
+li:hover::after {
+    width: 100%;
+    transition: 0.2s linear;
+}
+
+.icon {
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 15px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 5px 2px;
+    margin-top: 20px;
+}
+
+.bp {
+    color: aqua;
+    margin-left: 15px;
+}
+
+.fg {
+    color: #dd4b39;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+    margin-left: 60px;
+}
+
+.fa-twitter {
+    background: #55acee;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.content {
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.iam {
+    margin-left: 20rem;
+    color: white;
+}
+
+.gympara {
+    margin-left: 20rem;
+    color: white;
+}
+
+.gymtrainer {
+    margin-left: 20rem;
+    color: white;
+}
+
+.joinBtn {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: aqua;
+    margin-left: 350px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5px;
+
+}
+
+.joinBtn:hover {
+    background-color: antiquewhite;
+    color: black;
+
+}
+
+.aboutme {
+    display: flex;
+    /* width: 100%; */
+    /* color: white; */
+    /* border: 1px solid; */
+    margin-top: 142px;
+    height: 350px;
+
+}
+
+.content2 {
+    font-weight: 600;
+    font-size: medium;
+    margin-left: 20px;
+}
+
+.me {
+    color: palevioletred;
+}
+
+.readbtn {
+    padding: 5px 10px 10px 5px;
+    color: white;
+    background-color: #55acee;
+    border: 1px solid transparent;
+
+}
+
+.beingbodypage {
+   
+    display: flex;
+
+}
+.services{
+    color: darkmagenta
+}
+
+.BEINGBODY {
+    font-size: 60px;
+}
+
+.body {
+    color: #55acee;
+}
+
+.builder {
+    font-size: 45px;
+    letter-spacing: 50px;
+    color: aquamarine;
+}
+
+.signup {
+    padding: 5px 10px 10px 5px;
+    color: white;
+    background-color: #55acee;
+    border: 1px solid transparent;
+    margin-left: 20px;
+}
+.os{
+    margin-left: 400px;
+}
+
+
+.weprovide {
+    color: red;
+    margin-left: 400px;
+}
+
+.box1 {
+    border: 1px solid black;
+
+    background-color: black;
+    border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+.cardio {
+    text-align: center;
+
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.box1p {
+    text-align: center;
+    color: aqua;
+
+}
+
+.boxcontainer, .gridphoto {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    /* grid-auto-rows: minmax(150px auto); */
+    grid-gap: 3em;
+    justify-content: center;
+}
+   
+.box1 ,.gridphoto {
+    padding: 10px;
+
+}
+
+
+.membercontent{
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+.memberp{
+    font-weight: 600px;
+    color: red;
+}
+.our{
+    color: black;
+}
+.work{
+    color: purple;
+}
+.workcontent{
+    text-align: center;
+}
+form{
+    /* border: 1px solid black; */
+}
+.getin{
+    margin-bottom: 0px;
+    color: palevioletred;
+}
+.weare{
+    margin-top: 5px;
+    color: black;
+}
+.formpage{
+    display: flex;
+     
+}
+.formcontent{
+    margin-left: 200px;
+  width: 40%;
+}
+.submitbtn{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px ;
+    padding-right: 20px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    background-color: black;
+
+}
+  .mail
+    { text-decoration: none;
+ 
+ 
+  } 
+  .mail :hover{  background-color: rebeccapurple;
+
+  }
+
+
+
+
+
+
+
